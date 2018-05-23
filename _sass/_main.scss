@@ -1,0 +1,21 @@
+body {
+  width: 90%;
+}
+
+header {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: #fedb3a;
+}
+
+nav a:hover, nav a:active {
+  text-decoration: none;
+  color: #ab42ca;
+}
