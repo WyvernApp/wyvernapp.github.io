@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>{{ site.title }}</title>
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+  <script src="date.js"></script>
 </head>
 
 <body>
@@ -26,7 +27,11 @@
     </section>
 
     <footer>
-      <p>Copyright &copy; WyvernApp 2018.</p>
+      <p>Copyright &copy; 2018 WyvernApp | Last updated
+        <script>
+          document.write(formatDate(document.lastModified));
+        </script>
+      </p>
     </footer>
   </div>
 </body>
